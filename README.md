@@ -1,8 +1,9 @@
 # Rental-Database-Project
-Purpose: 
+
+## Purpose: 
 This project aims to create a data model and design a complete database for rental property management system. It aims to cover the whole business model of a rental property management system which deals with different users who are going to use this database.
 
-Approach: 
+## Approach: 
 I have followed Forward Engineering approach and designed EER model diagram first by defining tables and their attributes, established relationships and database objects like tables schema is populated. 
 Here is the below approach to design an EER model 
 a)	Building Details table – Consists of details of different buildings in the vicinity or on a street. 
@@ -16,7 +17,7 @@ h)	Lease Payment Details:  This helps in keeping track of payment details such a
 i)	Security deposit returns: This helps in keeping track of expired leases and management company is now responsible for repayment of security deposits which they took from the residents during the start of the lease. 
 j)	Role Table: This defines different roles of people here. 
 
-Database Objects: 
+### Database Objects: 
 
 1)	Tables – This has been described above. 
 2)	Views – 
@@ -33,7 +34,7 @@ negative_value_bathrooms : This trigger helps in validating the data for negativ
 
 6)	Transactions – transactionView
 
-Users :
+### Users :
 1)	User 1: This user is part of management staff who can login and check maintenance requests logged, appointment schedules, inspection checks. 
 2)	User 2 : This user is part of maintenance staff who can check maintenance requests.
 3)	User 3 : This is a resident staying in that locality. They can login and check all the details related to them and maintenance requests logged by them. 
